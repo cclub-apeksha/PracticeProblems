@@ -1,0 +1,6 @@
+k = int(input())
+l = int(input())
+m = int(input())
+n = int(input())
+d = int(input())
+print(len([' ' for i in range(1,d+1) if (i%k) * (i%l) * (i%m) * (i%n) == 0]))
